@@ -219,7 +219,7 @@
             this.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "TournamentViewerForm";
-            this.Text = "TournamentViewer";
+            this.Text = "Tournament Viewer";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.HeaderLabel = new System.Windows.Forms.Label();
+            this.createtournamentlabel = new System.Windows.Forms.Label();
             this.TournamentNameValue = new System.Windows.Forms.TextBox();
             this.CreateTournamentNameLabel = new System.Windows.Forms.Label();
             this.EntryFeeValue = new System.Windows.Forms.TextBox();
@@ -47,17 +47,17 @@
             this.createtournbut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // HeaderLabel
+            // createtournamentlabel
             // 
-            this.HeaderLabel.AutoSize = true;
-            this.HeaderLabel.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeaderLabel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.HeaderLabel.Location = new System.Drawing.Point(21, 33);
-            this.HeaderLabel.Name = "HeaderLabel";
-            this.HeaderLabel.Size = new System.Drawing.Size(291, 45);
-            this.HeaderLabel.TabIndex = 1;
-            this.HeaderLabel.Text = "Create Tournament";
-            this.HeaderLabel.Click += new System.EventHandler(this.HeaderLabel_Click);
+            this.createtournamentlabel.AutoSize = true;
+            this.createtournamentlabel.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createtournamentlabel.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.createtournamentlabel.Location = new System.Drawing.Point(21, 33);
+            this.createtournamentlabel.Name = "createtournamentlabel";
+            this.createtournamentlabel.Size = new System.Drawing.Size(291, 45);
+            this.createtournamentlabel.TabIndex = 1;
+            this.createtournamentlabel.Text = "Create Tournament";
+            this.createtournamentlabel.Click += new System.EventHandler(this.HeaderLabel_Click);
             // 
             // TournamentNameValue
             // 
@@ -189,7 +189,7 @@
             this.Deleteselectedprizes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Deleteselectedprizes.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Deleteselectedprizes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.Deleteselectedprizes.Location = new System.Drawing.Point(788, 363);
+            this.Deleteselectedprizes.Location = new System.Drawing.Point(785, 363);
             this.Deleteselectedprizes.Name = "Deleteselectedprizes";
             this.Deleteselectedprizes.Size = new System.Drawing.Size(130, 80);
             this.Deleteselectedprizes.TabIndex = 20;
@@ -204,7 +204,7 @@
             this.deleteselectedplayers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteselectedplayers.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteselectedplayers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.deleteselectedplayers.Location = new System.Drawing.Point(788, 185);
+            this.deleteselectedplayers.Location = new System.Drawing.Point(785, 185);
             this.deleteselectedplayers.Name = "deleteselectedplayers";
             this.deleteselectedplayers.Size = new System.Drawing.Size(130, 80);
             this.deleteselectedplayers.TabIndex = 23;
@@ -269,11 +269,11 @@
             this.Controls.Add(this.teamOneScoreL);
             this.Controls.Add(this.TournamentNameValue);
             this.Controls.Add(this.CreateTournamentNameLabel);
-            this.Controls.Add(this.HeaderLabel);
+            this.Controls.Add(this.createtournamentlabel);
             this.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "CreateTournamentForm";
-            this.Text = "CreateTournament";
+            this.Text = "Create Tournament";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,7 +281,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label HeaderLabel;
+        private System.Windows.Forms.Label createtournamentlabel;
         private System.Windows.Forms.TextBox TournamentNameValue;
         private System.Windows.Forms.Label CreateTournamentNameLabel;
         private System.Windows.Forms.TextBox EntryFeeValue;
