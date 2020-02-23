@@ -187,11 +187,11 @@
             this.ScoreButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.ScoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
             this.ScoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ScoreButton.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ScoreButton.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoreButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.ScoreButton.Location = new System.Drawing.Point(656, 364);
+            this.ScoreButton.Location = new System.Drawing.Point(641, 363);
             this.ScoreButton.Name = "ScoreButton";
-            this.ScoreButton.Size = new System.Drawing.Size(107, 45);
+            this.ScoreButton.Size = new System.Drawing.Size(125, 60);
             this.ScoreButton.TabIndex = 13;
             this.ScoreButton.Text = "SCORE";
             this.ScoreButton.UseVisualStyleBackColor = true;
