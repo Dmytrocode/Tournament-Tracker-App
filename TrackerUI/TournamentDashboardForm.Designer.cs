@@ -40,7 +40,7 @@
             this.tourndashboardlabel.AutoSize = true;
             this.tourndashboardlabel.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tourndashboardlabel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.tourndashboardlabel.Location = new System.Drawing.Point(115, 40);
+            this.tourndashboardlabel.Location = new System.Drawing.Point(115, 43);
             this.tourndashboardlabel.Name = "tourndashboardlabel";
             this.tourndashboardlabel.Size = new System.Drawing.Size(426, 45);
             this.tourndashboardlabel.TabIndex = 3;
@@ -51,7 +51,7 @@
             this.placeexistnumberlabel.AutoSize = true;
             this.placeexistnumberlabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.placeexistnumberlabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.placeexistnumberlabel.Location = new System.Drawing.Point(167, 115);
+            this.placeexistnumberlabel.Location = new System.Drawing.Point(167, 113);
             this.placeexistnumberlabel.Name = "placeexistnumberlabel";
             this.placeexistnumberlabel.Size = new System.Drawing.Size(322, 37);
             this.placeexistnumberlabel.TabIndex = 15;
@@ -60,7 +60,7 @@
             // loadtournamentlabel
             // 
             this.loadtournamentlabel.FormattingEnabled = true;
-            this.loadtournamentlabel.Location = new System.Drawing.Point(136, 162);
+            this.loadtournamentlabel.Location = new System.Drawing.Point(136, 160);
             this.loadtournamentlabel.Name = "loadtournamentlabel";
             this.loadtournamentlabel.Size = new System.Drawing.Size(384, 38);
             this.loadtournamentlabel.TabIndex = 16;
@@ -73,7 +73,7 @@
             this.loadTournlabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loadTournlabel.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadTournlabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.loadTournlabel.Location = new System.Drawing.Point(209, 224);
+            this.loadTournlabel.Location = new System.Drawing.Point(209, 223);
             this.loadTournlabel.Name = "loadTournlabel";
             this.loadTournlabel.Size = new System.Drawing.Size(239, 52);
             this.loadTournlabel.TabIndex = 27;
@@ -110,6 +110,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "TournamentDashboardForm";
             this.Text = "Tournament Dashboard";
+            this.Load += new System.EventHandler(this.TournamentDashboardForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -33,10 +33,10 @@
             this.placenumberlabel = new System.Windows.Forms.Label();
             this.percentlabel = new System.Windows.Forms.Label();
             this.prizeamountlabel = new System.Windows.Forms.Label();
-            this.TeamNameValue = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.placeNumbervalue = new System.Windows.Forms.TextBox();
+            this.Placenamevalue = new System.Windows.Forms.TextBox();
+            this.prizeAmountValue = new System.Windows.Forms.TextBox();
+            this.Percentagevalue = new System.Windows.Forms.TextBox();
             this.createTournlabel = new System.Windows.Forms.Button();
             this.prizeorlabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -96,37 +96,37 @@
             this.prizeamountlabel.TabIndex = 16;
             this.prizeamountlabel.Text = "PRIZE AMOUNT";
             // 
-            // TeamNameValue
+            // placeNumbervalue
             // 
-            this.TeamNameValue.Location = new System.Drawing.Point(280, 156);
-            this.TeamNameValue.Multiline = true;
-            this.TeamNameValue.Name = "TeamNameValue";
-            this.TeamNameValue.Size = new System.Drawing.Size(183, 33);
-            this.TeamNameValue.TabIndex = 17;
+            this.placeNumbervalue.Location = new System.Drawing.Point(280, 156);
+            this.placeNumbervalue.Multiline = true;
+            this.placeNumbervalue.Name = "placeNumbervalue";
+            this.placeNumbervalue.Size = new System.Drawing.Size(183, 33);
+            this.placeNumbervalue.TabIndex = 17;
             // 
-            // textBox1
+            // Placenamevalue
             // 
-            this.textBox1.Location = new System.Drawing.Point(280, 224);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 33);
-            this.textBox1.TabIndex = 18;
+            this.Placenamevalue.Location = new System.Drawing.Point(280, 224);
+            this.Placenamevalue.Multiline = true;
+            this.Placenamevalue.Name = "Placenamevalue";
+            this.Placenamevalue.Size = new System.Drawing.Size(183, 33);
+            this.Placenamevalue.TabIndex = 18;
             // 
-            // textBox2
+            // prizeAmountValue
             // 
-            this.textBox2.Location = new System.Drawing.Point(280, 289);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(183, 33);
-            this.textBox2.TabIndex = 19;
+            this.prizeAmountValue.Location = new System.Drawing.Point(280, 289);
+            this.prizeAmountValue.Multiline = true;
+            this.prizeAmountValue.Name = "prizeAmountValue";
+            this.prizeAmountValue.Size = new System.Drawing.Size(183, 33);
+            this.prizeAmountValue.TabIndex = 19;
             // 
-            // textBox3
+            // Percentagevalue
             // 
-            this.textBox3.Location = new System.Drawing.Point(280, 388);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(183, 33);
-            this.textBox3.TabIndex = 20;
+            this.Percentagevalue.Location = new System.Drawing.Point(280, 388);
+            this.Percentagevalue.Multiline = true;
+            this.Percentagevalue.Name = "Percentagevalue";
+            this.Percentagevalue.Size = new System.Drawing.Size(183, 33);
+            this.Percentagevalue.TabIndex = 20;
             // 
             // createTournlabel
             // 
@@ -163,10 +163,10 @@
             this.ClientSize = new System.Drawing.Size(507, 545);
             this.Controls.Add(this.prizeorlabel);
             this.Controls.Add(this.createTournlabel);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.TeamNameValue);
+            this.Controls.Add(this.Percentagevalue);
+            this.Controls.Add(this.prizeAmountValue);
+            this.Controls.Add(this.Placenamevalue);
+            this.Controls.Add(this.placeNumbervalue);
             this.Controls.Add(this.prizeamountlabel);
             this.Controls.Add(this.percentlabel);
             this.Controls.Add(this.placenumberlabel);
@@ -188,10 +188,10 @@
         private System.Windows.Forms.Label placenumberlabel;
         private System.Windows.Forms.Label percentlabel;
         private System.Windows.Forms.Label prizeamountlabel;
-        private System.Windows.Forms.TextBox TeamNameValue;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox placeNumbervalue;
+        private System.Windows.Forms.TextBox Placenamevalue;
+        private System.Windows.Forms.TextBox prizeAmountValue;
+        private System.Windows.Forms.TextBox Percentagevalue;
         private System.Windows.Forms.Button createTournlabel;
         private System.Windows.Forms.Label prizeorlabel;
     }

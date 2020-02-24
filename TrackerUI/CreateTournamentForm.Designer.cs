@@ -42,8 +42,8 @@
             this.TournamentPlayersLabel = new System.Windows.Forms.Label();
             this.Deleteselectedprizes = new System.Windows.Forms.Button();
             this.deleteselectedplayers = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.teamplayerslabel = new System.Windows.Forms.Label();
+            this.teamplayersbox = new System.Windows.Forms.ListBox();
             this.createtournbut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -211,26 +211,26 @@
             this.deleteselectedplayers.Text = "Delete Selected";
             this.deleteselectedplayers.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // teamplayerslabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label1.Location = new System.Drawing.Point(448, 299);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 32);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Team / Players";
+            this.teamplayerslabel.AutoSize = true;
+            this.teamplayerslabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teamplayerslabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.teamplayerslabel.Location = new System.Drawing.Point(448, 299);
+            this.teamplayerslabel.Name = "teamplayerslabel";
+            this.teamplayerslabel.Size = new System.Drawing.Size(169, 32);
+            this.teamplayerslabel.TabIndex = 22;
+            this.teamplayerslabel.Text = "Team / Players";
             // 
-            // listBox1
+            // teamplayersbox
             // 
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 26;
-            this.listBox1.Location = new System.Drawing.Point(454, 339);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(291, 132);
-            this.listBox1.TabIndex = 24;
+            this.teamplayersbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.teamplayersbox.FormattingEnabled = true;
+            this.teamplayersbox.ItemHeight = 26;
+            this.teamplayersbox.Location = new System.Drawing.Point(454, 339);
+            this.teamplayersbox.Name = "teamplayersbox";
+            this.teamplayersbox.Size = new System.Drawing.Size(291, 132);
+            this.teamplayersbox.TabIndex = 24;
             // 
             // createtournbut
             // 
@@ -254,9 +254,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(963, 663);
             this.Controls.Add(this.createtournbut);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.teamplayersbox);
             this.Controls.Add(this.deleteselectedplayers);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.teamplayerslabel);
             this.Controls.Add(this.Deleteselectedprizes);
             this.Controls.Add(this.TournamentPlayersLabel);
             this.Controls.Add(this.TournamentPlayersListBox);
@@ -295,8 +295,8 @@
         private System.Windows.Forms.Label TournamentPlayersLabel;
         private System.Windows.Forms.Button Deleteselectedprizes;
         private System.Windows.Forms.Button deleteselectedplayers;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label teamplayerslabel;
+        private System.Windows.Forms.ListBox teamplayersbox;
         private System.Windows.Forms.Button createtournbut;
     }
 }

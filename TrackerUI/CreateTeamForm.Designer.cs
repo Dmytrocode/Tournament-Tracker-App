@@ -35,10 +35,10 @@
             this.Addmemberlabel = new System.Windows.Forms.Button();
             this.AddNewMemberboxlabel = new System.Windows.Forms.GroupBox();
             this.creatememberlabel = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.TournamentNameValue = new System.Windows.Forms.TextBox();
+            this.cellphonevalue = new System.Windows.Forms.TextBox();
+            this.emailvalue = new System.Windows.Forms.TextBox();
+            this.lastnamevalue = new System.Windows.Forms.TextBox();
+            this.firstnamevalue = new System.Windows.Forms.TextBox();
             this.celllabel = new System.Windows.Forms.Label();
             this.emailabel = new System.Windows.Forms.Label();
             this.lastnamelabel = new System.Windows.Forms.Label();
@@ -110,10 +110,10 @@
             // AddNewMemberboxlabel
             // 
             this.AddNewMemberboxlabel.Controls.Add(this.creatememberlabel);
-            this.AddNewMemberboxlabel.Controls.Add(this.textBox3);
-            this.AddNewMemberboxlabel.Controls.Add(this.textBox2);
-            this.AddNewMemberboxlabel.Controls.Add(this.textBox1);
-            this.AddNewMemberboxlabel.Controls.Add(this.TournamentNameValue);
+            this.AddNewMemberboxlabel.Controls.Add(this.cellphonevalue);
+            this.AddNewMemberboxlabel.Controls.Add(this.emailvalue);
+            this.AddNewMemberboxlabel.Controls.Add(this.lastnamevalue);
+            this.AddNewMemberboxlabel.Controls.Add(this.firstnamevalue);
             this.AddNewMemberboxlabel.Controls.Add(this.celllabel);
             this.AddNewMemberboxlabel.Controls.Add(this.emailabel);
             this.AddNewMemberboxlabel.Controls.Add(this.lastnamelabel);
@@ -142,37 +142,37 @@
             this.creatememberlabel.Text = "Create Member";
             this.creatememberlabel.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // cellphonevalue
             // 
-            this.textBox3.Location = new System.Drawing.Point(156, 222);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(202, 33);
-            this.textBox3.TabIndex = 25;
+            this.cellphonevalue.Location = new System.Drawing.Point(156, 222);
+            this.cellphonevalue.Multiline = true;
+            this.cellphonevalue.Name = "cellphonevalue";
+            this.cellphonevalue.Size = new System.Drawing.Size(202, 33);
+            this.cellphonevalue.TabIndex = 25;
             // 
-            // textBox2
+            // emailvalue
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 173);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 33);
-            this.textBox2.TabIndex = 24;
+            this.emailvalue.Location = new System.Drawing.Point(156, 173);
+            this.emailvalue.Multiline = true;
+            this.emailvalue.Name = "emailvalue";
+            this.emailvalue.Size = new System.Drawing.Size(202, 33);
+            this.emailvalue.TabIndex = 24;
             // 
-            // textBox1
+            // lastnamevalue
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 122);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(202, 33);
-            this.textBox1.TabIndex = 23;
+            this.lastnamevalue.Location = new System.Drawing.Point(156, 122);
+            this.lastnamevalue.Multiline = true;
+            this.lastnamevalue.Name = "lastnamevalue";
+            this.lastnamevalue.Size = new System.Drawing.Size(202, 33);
+            this.lastnamevalue.TabIndex = 23;
             // 
-            // TournamentNameValue
+            // firstnamevalue
             // 
-            this.TournamentNameValue.Location = new System.Drawing.Point(156, 68);
-            this.TournamentNameValue.Multiline = true;
-            this.TournamentNameValue.Name = "TournamentNameValue";
-            this.TournamentNameValue.Size = new System.Drawing.Size(202, 33);
-            this.TournamentNameValue.TabIndex = 19;
+            this.firstnamevalue.Location = new System.Drawing.Point(156, 68);
+            this.firstnamevalue.Multiline = true;
+            this.firstnamevalue.Name = "firstnamevalue";
+            this.firstnamevalue.Size = new System.Drawing.Size(202, 33);
+            this.firstnamevalue.TabIndex = 19;
             // 
             // celllabel
             // 
@@ -303,10 +303,10 @@
         private System.Windows.Forms.Label emailabel;
         private System.Windows.Forms.Label lastnamelabel;
         private System.Windows.Forms.Label firstnamelabel;
-        private System.Windows.Forms.TextBox TournamentNameValue;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox firstnamevalue;
+        private System.Windows.Forms.TextBox cellphonevalue;
+        private System.Windows.Forms.TextBox emailvalue;
+        private System.Windows.Forms.TextBox lastnamevalue;
         private System.Windows.Forms.Button creatememberlabel;
         private System.Windows.Forms.ListBox teammembersListBox;
         private System.Windows.Forms.Button deleteselectedmemberlabel;
