@@ -32,21 +32,21 @@
             this.TeamNameLabel = new System.Windows.Forms.Label();
             this.Createteamlabel = new System.Windows.Forms.Label();
             this.selectteamlmemberlabel = new System.Windows.Forms.Label();
-            this.selectteamdrop = new System.Windows.Forms.ComboBox();
             this.Addmemberlabel = new System.Windows.Forms.Button();
             this.AddNewMemberboxlabel = new System.Windows.Forms.GroupBox();
+            this.creatememberlabel = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TournamentNameValue = new System.Windows.Forms.TextBox();
+            this.celllabel = new System.Windows.Forms.Label();
+            this.emailabel = new System.Windows.Forms.Label();
             this.lastnamelabel = new System.Windows.Forms.Label();
             this.firstnamelabel = new System.Windows.Forms.Label();
-            this.emailabel = new System.Windows.Forms.Label();
-            this.celllabel = new System.Windows.Forms.Label();
-            this.TournamentNameValue = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.creatememberlabel = new System.Windows.Forms.Button();
             this.teammembersListBox = new System.Windows.Forms.ListBox();
             this.deleteselectedmemberlabel = new System.Windows.Forms.Button();
             this.createTournlabel = new System.Windows.Forms.Button();
+            this.selectteamdrop = new System.Windows.Forms.ComboBox();
             this.AddNewMemberboxlabel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,15 +92,6 @@
             this.selectteamlmemberlabel.Text = "SELECT TEAM MEMBER";
             this.selectteamlmemberlabel.Click += new System.EventHandler(this.selectteamlmemberlabel_Click);
             // 
-            // selectteamdrop
-            // 
-            this.selectteamdrop.FormattingEnabled = true;
-            this.selectteamdrop.Location = new System.Drawing.Point(47, 249);
-            this.selectteamdrop.Name = "selectteamdrop";
-            this.selectteamdrop.Size = new System.Drawing.Size(345, 21);
-            this.selectteamdrop.TabIndex = 15;
-            this.selectteamdrop.SelectedIndexChanged += new System.EventHandler(this.selectteamdrop_SelectedIndexChanged);
-            // 
             // Addmemberlabel
             // 
             this.Addmemberlabel.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
@@ -136,6 +127,75 @@
             this.AddNewMemberboxlabel.TabStop = false;
             this.AddNewMemberboxlabel.Text = "Add New Member";
             // 
+            // creatememberlabel
+            // 
+            this.creatememberlabel.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.creatememberlabel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.creatememberlabel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.creatememberlabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.creatememberlabel.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creatememberlabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.creatememberlabel.Location = new System.Drawing.Point(90, 272);
+            this.creatememberlabel.Name = "creatememberlabel";
+            this.creatememberlabel.Size = new System.Drawing.Size(184, 45);
+            this.creatememberlabel.TabIndex = 19;
+            this.creatememberlabel.Text = "Create Member";
+            this.creatememberlabel.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(156, 222);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(202, 33);
+            this.textBox3.TabIndex = 25;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(156, 173);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(202, 33);
+            this.textBox2.TabIndex = 24;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(156, 122);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(202, 33);
+            this.textBox1.TabIndex = 23;
+            // 
+            // TournamentNameValue
+            // 
+            this.TournamentNameValue.Location = new System.Drawing.Point(156, 68);
+            this.TournamentNameValue.Multiline = true;
+            this.TournamentNameValue.Name = "TournamentNameValue";
+            this.TournamentNameValue.Size = new System.Drawing.Size(202, 33);
+            this.TournamentNameValue.TabIndex = 19;
+            // 
+            // celllabel
+            // 
+            this.celllabel.AutoSize = true;
+            this.celllabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.celllabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.celllabel.Location = new System.Drawing.Point(20, 222);
+            this.celllabel.Name = "celllabel";
+            this.celllabel.Size = new System.Drawing.Size(124, 32);
+            this.celllabel.TabIndex = 22;
+            this.celllabel.Text = "Cellphone";
+            // 
+            // emailabel
+            // 
+            this.emailabel.AutoSize = true;
+            this.emailabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.emailabel.Location = new System.Drawing.Point(20, 173);
+            this.emailabel.Name = "emailabel";
+            this.emailabel.Size = new System.Drawing.Size(72, 32);
+            this.emailabel.TabIndex = 21;
+            this.emailabel.Text = "Email";
+            // 
             // lastnamelabel
             // 
             this.lastnamelabel.AutoSize = true;
@@ -157,75 +217,6 @@
             this.firstnamelabel.Size = new System.Drawing.Size(130, 32);
             this.firstnamelabel.TabIndex = 20;
             this.firstnamelabel.Text = "First Name";
-            // 
-            // emailabel
-            // 
-            this.emailabel.AutoSize = true;
-            this.emailabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.emailabel.Location = new System.Drawing.Point(20, 173);
-            this.emailabel.Name = "emailabel";
-            this.emailabel.Size = new System.Drawing.Size(72, 32);
-            this.emailabel.TabIndex = 21;
-            this.emailabel.Text = "Email";
-            // 
-            // celllabel
-            // 
-            this.celllabel.AutoSize = true;
-            this.celllabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.celllabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.celllabel.Location = new System.Drawing.Point(20, 222);
-            this.celllabel.Name = "celllabel";
-            this.celllabel.Size = new System.Drawing.Size(124, 32);
-            this.celllabel.TabIndex = 22;
-            this.celllabel.Text = "Cellphone";
-            // 
-            // TournamentNameValue
-            // 
-            this.TournamentNameValue.Location = new System.Drawing.Point(156, 68);
-            this.TournamentNameValue.Multiline = true;
-            this.TournamentNameValue.Name = "TournamentNameValue";
-            this.TournamentNameValue.Size = new System.Drawing.Size(202, 33);
-            this.TournamentNameValue.TabIndex = 19;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(156, 122);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(202, 33);
-            this.textBox1.TabIndex = 23;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(156, 173);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 33);
-            this.textBox2.TabIndex = 24;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(156, 222);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(202, 33);
-            this.textBox3.TabIndex = 25;
-            // 
-            // creatememberlabel
-            // 
-            this.creatememberlabel.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.creatememberlabel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.creatememberlabel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.creatememberlabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.creatememberlabel.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.creatememberlabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.creatememberlabel.Location = new System.Drawing.Point(90, 272);
-            this.creatememberlabel.Name = "creatememberlabel";
-            this.creatememberlabel.Size = new System.Drawing.Size(184, 45);
-            this.creatememberlabel.TabIndex = 19;
-            this.creatememberlabel.Text = "Create Member";
-            this.creatememberlabel.UseVisualStyleBackColor = true;
             // 
             // teammembersListBox
             // 
@@ -262,8 +253,17 @@
             this.createTournlabel.Name = "createTournlabel";
             this.createTournlabel.Size = new System.Drawing.Size(227, 73);
             this.createTournlabel.TabIndex = 25;
-            this.createTournlabel.Text = "Create Team";
+            this.createTournlabel.Text = "CREATE TEAM";
             this.createTournlabel.UseVisualStyleBackColor = true;
+            // 
+            // selectteamdrop
+            // 
+            this.selectteamdrop.FormattingEnabled = true;
+            this.selectteamdrop.Location = new System.Drawing.Point(47, 249);
+            this.selectteamdrop.Name = "selectteamdrop";
+            this.selectteamdrop.Size = new System.Drawing.Size(345, 21);
+            this.selectteamdrop.TabIndex = 15;
+            this.selectteamdrop.SelectedIndexChanged += new System.EventHandler(this.selectteamdrop_SelectedIndexChanged);
             // 
             // CreateTeamForm
             // 
@@ -297,7 +297,6 @@
         private System.Windows.Forms.Label TeamNameLabel;
         private System.Windows.Forms.Label Createteamlabel;
         private System.Windows.Forms.Label selectteamlmemberlabel;
-        private System.Windows.Forms.ComboBox selectteamdrop;
         private System.Windows.Forms.Button Addmemberlabel;
         private System.Windows.Forms.GroupBox AddNewMemberboxlabel;
         private System.Windows.Forms.Label celllabel;
@@ -312,5 +311,6 @@
         private System.Windows.Forms.ListBox teammembersListBox;
         private System.Windows.Forms.Button deleteselectedmemberlabel;
         private System.Windows.Forms.Button createTournlabel;
+        private System.Windows.Forms.ComboBox selectteamdrop;
     }
 }

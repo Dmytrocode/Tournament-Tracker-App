@@ -52,11 +52,11 @@
             this.createtournamentlabel.AutoSize = true;
             this.createtournamentlabel.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createtournamentlabel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.createtournamentlabel.Location = new System.Drawing.Point(21, 33);
+            this.createtournamentlabel.Location = new System.Drawing.Point(27, 35);
             this.createtournamentlabel.Name = "createtournamentlabel";
-            this.createtournamentlabel.Size = new System.Drawing.Size(291, 45);
+            this.createtournamentlabel.Size = new System.Drawing.Size(348, 45);
             this.createtournamentlabel.TabIndex = 1;
-            this.createtournamentlabel.Text = "Create Tournament";
+            this.createtournamentlabel.Text = "CREATE TOURNAMENT";
             this.createtournamentlabel.Click += new System.EventHandler(this.HeaderLabel_Click);
             // 
             // TournamentNameValue
@@ -238,13 +238,13 @@
             this.createtournbut.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.createtournbut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
             this.createtournbut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.createtournbut.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createtournbut.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createtournbut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.createtournbut.Location = new System.Drawing.Point(338, 521);
+            this.createtournbut.Location = new System.Drawing.Point(330, 520);
             this.createtournbut.Name = "createtournbut";
-            this.createtournbut.Size = new System.Drawing.Size(245, 51);
+            this.createtournbut.Size = new System.Drawing.Size(258, 68);
             this.createtournbut.TabIndex = 25;
-            this.createtournbut.Text = "Create Tournament";
+            this.createtournbut.Text = "CREATE TOURNAMENT";
             this.createtournbut.UseVisualStyleBackColor = true;
             // 
             // CreateTournamentForm
