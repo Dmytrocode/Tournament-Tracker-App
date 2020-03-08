@@ -31,5 +31,10 @@ namespace TrackerUI
         {
 
         }
+
+        private void createtournbut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

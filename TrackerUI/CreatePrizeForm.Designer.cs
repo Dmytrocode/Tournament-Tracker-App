@@ -37,7 +37,7 @@
             this.Placenamevalue = new System.Windows.Forms.TextBox();
             this.prizeAmountValue = new System.Windows.Forms.TextBox();
             this.Percentagevalue = new System.Windows.Forms.TextBox();
-            this.createTournlabel = new System.Windows.Forms.Button();
+            this.creatPrizeButton = new System.Windows.Forms.Button();
             this.prizeorlabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -127,22 +127,23 @@
             this.Percentagevalue.Name = "Percentagevalue";
             this.Percentagevalue.Size = new System.Drawing.Size(183, 33);
             this.Percentagevalue.TabIndex = 20;
+            this.Percentagevalue.TextChanged += new System.EventHandler(this.Percentagevalue_TextChanged);
             // 
-            // createTournlabel
+            // creatPrizeButton
             // 
-            this.createTournlabel.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.createTournlabel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.createTournlabel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.createTournlabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.createTournlabel.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.createTournlabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.createTournlabel.Location = new System.Drawing.Point(155, 462);
-            this.createTournlabel.Name = "createTournlabel";
-            this.createTournlabel.Size = new System.Drawing.Size(188, 52);
-            this.createTournlabel.TabIndex = 26;
-            this.createTournlabel.Text = "CREATE PRIZE";
-            this.createTournlabel.UseVisualStyleBackColor = true;
-            this.createTournlabel.Click += new System.EventHandler(this.createTournlabel_Click);
+            this.creatPrizeButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.creatPrizeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.creatPrizeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.creatPrizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.creatPrizeButton.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creatPrizeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.creatPrizeButton.Location = new System.Drawing.Point(155, 462);
+            this.creatPrizeButton.Name = "creatPrizeButton";
+            this.creatPrizeButton.Size = new System.Drawing.Size(188, 52);
+            this.creatPrizeButton.TabIndex = 26;
+            this.creatPrizeButton.Text = "CREATE PRIZE";
+            this.creatPrizeButton.UseVisualStyleBackColor = true;
+            this.creatPrizeButton.Click += new System.EventHandler(this.createTournlabel_Click);
             // 
             // prizeorlabel
             // 
@@ -162,7 +163,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(507, 545);
             this.Controls.Add(this.prizeorlabel);
-            this.Controls.Add(this.createTournlabel);
+            this.Controls.Add(this.creatPrizeButton);
             this.Controls.Add(this.Percentagevalue);
             this.Controls.Add(this.prizeAmountValue);
             this.Controls.Add(this.Placenamevalue);
@@ -192,7 +193,7 @@
         private System.Windows.Forms.TextBox Placenamevalue;
         private System.Windows.Forms.TextBox prizeAmountValue;
         private System.Windows.Forms.TextBox Percentagevalue;
-        private System.Windows.Forms.Button createTournlabel;
+        private System.Windows.Forms.Button creatPrizeButton;
         private System.Windows.Forms.Label prizeorlabel;
     }
 }

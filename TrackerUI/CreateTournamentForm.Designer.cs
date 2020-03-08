@@ -246,6 +246,7 @@
             this.createtournbut.TabIndex = 25;
             this.createtournbut.Text = "CREATE TOURNAMENT";
             this.createtournbut.UseVisualStyleBackColor = true;
+            this.createtournbut.Click += new System.EventHandler(this.createtournbut_Click);
             // 
             // CreateTournamentForm
             // 
