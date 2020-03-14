@@ -11,7 +11,12 @@ namespace TrackerLibrary.DataAccess
     {
         public PrizeModel CreatePrize(PrizeModel model)
         {
-            throw new NotImplementedException();
+            //Load text file
+            //Convert text to List<PrizeModel>
+            //Find ID
+            //Add new Record w/ new ID (max + 1)
+            //Convert prizes to List<string>
+            //Save list<string> to txt file.
         }
     }
 }
