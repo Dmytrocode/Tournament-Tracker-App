@@ -11,7 +11,7 @@ namespace TrackerLibrary.Models
         /// <summary>
         /// Unique indentifier for prize.
         /// </summary>
-        public int id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Numeric indetifier for place(1 = first place, 2 = second, etc)

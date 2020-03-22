@@ -35,7 +35,7 @@ namespace TrackerLibrary.DataAccess
 
                 connection.Execute("Tournaments.dbo.spPrizes_Insert", p, commandType: CommandType.StoredProcedure);
 
-                model.id = p.Get<int>("@id");
+                model.Id = p.Get<int>("@id");
 
                 return model;
             }

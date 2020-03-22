@@ -30,10 +30,7 @@ namespace TrackerUI
                     prizeAmountValue.Text, 
                     Percentagevalue.Text);
 
-                foreach(IDataConnection db in GlobalConfig.Connections)
-                {
-                    db.CreatePrize(model);
-                }
+                GlobalConfig.Connection.CreatePrize(model);
 
             }
             else
