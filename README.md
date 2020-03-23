@@ -8,7 +8,7 @@ The application is connected with a SQL database which will send and retrieve in
 
 
 
-For this project, I am following the steps of Tim Corey (https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw),
+For this project, I am following Tim Corey's Course (https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw),
 
 ![PrizeModelForm](https://i.imgur.com/BaQYYvv.png) | ![TeamModelForm](https://i.imgur.com/XJDkPO4.png)
 
