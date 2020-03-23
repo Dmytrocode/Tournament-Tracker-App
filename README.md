@@ -6,8 +6,8 @@ This is an outgoing project about a Tournament Tracker Application created with 
 
 The application is connected with a SQL database which will send and retrieve information from.
 
-![PrizeModelForm](https://i.imgur.com/BaQYYvv.png =250x250)
-![TeamModelForm](https://i.imgur.com/XJDkPO4.png =250x250)
+![PrizeModelForm](https://i.imgur.com/BaQYYvv.png | width=100)
+![TeamModelForm](https://i.imgur.com/XJDkPO4.png | width=100)
 
 
 This is a complex real-world application, so please do not expect me to know everything at the detail. I am currently learning endless
