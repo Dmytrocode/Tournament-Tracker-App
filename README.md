@@ -12,6 +12,6 @@ The application is connected with a SQL database which will send and retrieve in
 This is a complex real-world application, so please do not expect me to know everything at the detail. I am currently learning endless
 programming skills and knowdledge by learning from Tim Corey.
 
-The goal is to add my own modifications to the application after it is completed.
+The goal is to gain understanding of how .NET applications works, and use the knowledge for future projects or contributions. 
 
 For this project, I am following Tim Corey's Course (https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw),
