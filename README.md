@@ -6,10 +6,6 @@ This is an outgoing project about a Tournament Tracker Application created with 
 
 The application is connected with a SQL database which will send and retrieve information from.
 
-
-
-For this project, I am following Tim Corey's Course (https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw),
-
 ![PrizeModelForm](https://i.imgur.com/BaQYYvv.png) | ![TeamModelForm](https://i.imgur.com/XJDkPO4.png)
 
 
@@ -17,3 +13,5 @@ This is a complex real-world application, so please do not expect me to know eve
 programming skills and knowdledge by learning from Tim Corey.
 
 The goal is to add my own modifications to the application after it is completed.
+
+For this project, I am following Tim Corey's Course (https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw),
