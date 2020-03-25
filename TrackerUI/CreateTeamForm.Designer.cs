@@ -141,6 +141,7 @@
             this.creatememberlabel.TabIndex = 19;
             this.creatememberlabel.Text = "Create Member";
             this.creatememberlabel.UseVisualStyleBackColor = true;
+            this.creatememberlabel.Click += new System.EventHandler(this.creatememberlabel_Click);
             // 
             // cellphonevalue
             // 
@@ -255,6 +256,7 @@
             this.createTournlabel.TabIndex = 25;
             this.createTournlabel.Text = "CREATE TEAM";
             this.createTournlabel.UseVisualStyleBackColor = true;
+            this.createTournlabel.Click += new System.EventHandler(this.createTournlabel_Click);
             // 
             // selectteamdrop
             // 
