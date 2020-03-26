@@ -15,13 +15,36 @@ namespace TrackerUI
     public partial class CreateTeamForm : Form
     {
 
-        private List<PersonModel> availableTeamMembers = new List<PersonModel>();
+        private List<PersonModel> availableTeamMembers = GlobalConfig.Connection.GetPerson_All();
         private List<PersonModel> selectedTeamMembers = new List<PersonModel>();
         public CreateTeamForm()
         {
             InitializeComponent();
+
+            //CreateSampleData();
+
+            WireUpLists();
+        } 
+
+        private void CreateSampleData()
+        {
+            availableTeamMembers.Add(new PersonModel { FirstName = "Dima", LastName = "Kavetskyy" });
+            availableTeamMembers.Add(new PersonModel { FirstName = "Faisal", LastName = "Pupu" });
+
+            selectedTeamMembers.Add(new PersonModel { FirstName = "Jane", LastName = "Heyo" });
+            selectedTeamMembers.Add(new PersonModel { FirstName = "Bill", LastName = "Jones" });
+
+
         }
 
+        private void WireUpLists()
+        {
+            selectteamdrop.DataSource = availableTeamMembers;
+            selectteamdrop.DisplayMember = "FullName";
+
+            teammembersListBox.DataSource = selectedTeamMembers;
+
+        }
         private void selectteamdrop_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -82,6 +105,14 @@ namespace TrackerUI
                 return false;
             }
             return true;
+        }
+
+        private void Addmemberlabel_Click(object sender, EventArgs e)
+        {
+            PersonModel p = (PersonModel)selectteamdrop.SelectedItem;
+
+            availableTeamMembers.Remove(p);
+            selectedTeamMembers.Add(p);
         }
     }
 }

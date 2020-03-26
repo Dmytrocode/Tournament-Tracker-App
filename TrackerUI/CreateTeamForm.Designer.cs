@@ -106,6 +106,7 @@
             this.Addmemberlabel.TabIndex = 17;
             this.Addmemberlabel.Text = "Add Member";
             this.Addmemberlabel.UseVisualStyleBackColor = true;
+            this.Addmemberlabel.Click += new System.EventHandler(this.Addmemberlabel_Click);
             // 
             // AddNewMemberboxlabel
             // 
